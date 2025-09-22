@@ -1,7 +1,7 @@
 //Contextes
-var isMobile = false, dpi = 1, isChrome = false, isSafari = false, isLocal = false, isTouch = false;
+var isMobile = false, dpi = 1, isChrome = false, isSafari = false, isLocal = false, isTouch = true;
 var timeline, audioContext, audioContextData, canvasContext, dessin, waveform, network, stage;
-var events = {start: "mousedown", move: "mousemove", end: "mouseup", out: "mouseupoutside"};
+var events = {start: "touchstart", move: "touchmove", end: "touchend", out: "touchendoutside"};
 var lowPerf = true;
 
 $(document).ready(function() {
