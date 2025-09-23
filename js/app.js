@@ -22,7 +22,7 @@ $(document).ready(function() {
 	if(dpi == undefined)
 		dpi = 1;
 	if(dpi == 1)	dpiScale = 2;
-	else  			dpiScale = 1;
+	else  			dpiScale = 2;
 
 	//Chargement des sons
 	synthInit(false);
