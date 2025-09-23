@@ -21,7 +21,7 @@ $(document).ready(function() {
 	dpi = window.devicePixelRatio;
 	if(dpi == undefined)
 		dpi = 1;
-	if(dpi == 1)	dpiScale = 0.5;
+	if(dpi == 1)	dpiScale = 2;
 	else  			dpiScale = 1;
 
 	//Chargement des sons
