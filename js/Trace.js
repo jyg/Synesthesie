@@ -12,9 +12,9 @@ function Trace(tool) {
 	this.tool           = tool,
 	this.isInCache      = false;
 	this.icons          = new PIXI.Container();
-	this.playButton     = new PIXI.Sprite.fromImage('img/tracePlay_'     + ((isTouch)?('large'):('small')) + '.png');
-	this.playingButton  = new PIXI.Sprite.fromImage('img/tracePlaying_'  + ((isTouch)?('large'):('small')) + '.png');
-	this.selectedButton = new PIXI.Sprite.fromImage('img/traceSelected_' + ((isTouch)?('large'):('small')) + '.png');
+	this.playButton     = new PIXI.Sprite.fromImage('img/tracePlay_large.png');     
+	this.playingButton  = new PIXI.Sprite.fromImage('img/tracePlaying_large.png'); 
+	this.selectedButton = new PIXI.Sprite.fromImage('img/traceSelected_large.png'); 
 	this.time           = -1;
 	this.isSelected     = false;
 
